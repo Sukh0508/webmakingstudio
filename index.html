@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="font-bold text-white bg-black">
+    <header class="bg-white h-[10vh] w-[100%] text-black flex justify-evenly z-[99] fixed">
+       <div class="md:h-[100%] md:w-[50%] w-[100%] ml-[10%] flex text-centre" id="logo">
+        <a href="#home"><img class="object-contain md:h-[100%] h-[100%]" src="public/img/logore.png" alt="" srcset=""></a>
+       </div>
+       <ul class="
+    fixed inset-0 top-[10vh] left-0
+    h-[calc(100vh-10vh)] w-[100%]
+    bg-[rgb(33,217,154)]
+    flex flex-col place-items-center gap-[5rem]
+    py-[30px] text-[20px]
+
+    transform -translate-x-full
+    transition-transform duration-300 ease-in-out
+
+    md:static md:h-[10vh] md:w-[50%]
+    md:flex-row md:translate-x-0 md:bg-transparent
+  " id="menu">
+        <a href="#home" class="duration-200 nav-link hover:-translate-y-2"><li>HOME</li></a>
+        <a href="#about" class="duration-200 nav-link hover:-translate-y-2"><li >ABOUT</li></a>
+        <a href="#service" class="duration-200 nav-link hover:-translate-y-2"> <li>SERVICE</li></a>
+        <a href="#footer" class="duration-200 nav-link hover:-translate-y-2"><li >CONTACT</li></a>
+       </ul>
+       <div class="flex place-items-center justify-center  w-[30%] text-[22px] md:hidden" id="hamburger">
+            <i class="ri-menu-fill"></i>
+       </div>
+    </header>
+
+<section class="flex justify-center md:justify-center  md:h-[100vh] h-[100vh]" id="home">
+<div class="md:w-[60%] md:ml-[30px] h-[100vh] md:h-[auto] md:mt-[20%] mx-[10px] my-[20px] flex flex-col justify-end absolute md:static z-[10]"id="head-text">
+      <div class="capitalize p-auto" id="heading">
+        <span class="md:text-[7rem] text-[3rem]">Your Idea</span> <br>
+        <span class="md:text-[6rem] text-[3rem] text-[rgb(33,217,154)]">Our Code</span> <br>
+        <span class="md:text-[5rem] text-[3rem]">Powerful Results.</span>
+      </div>
+      <p class="md:text-[22px] text-[20px] text-justify py-[1rem]" >We design and develop high-quality websites tailored to your business needs. Our goal is to turn your vision into a functional, attractive, and performance-driven website. We specialize in web development, UI/UX design, landing pages, and responsive websites that are visually appealing, user-friendly, and optimized for performance.</p>
+      <p class="md:text-[22px] text-[20px]">✔ Modern & Clean Design <br>
+      ✔ Mobile-First & Responsive <br>
+      ✔ Fast Loading & SEO Friendly</p>
+    </div>
+    <div class="md:w-[40%] w-[100%] h-[100%] md:h-[100%] ">
+      <img class="object-cover h-full bg-cover opacity-50 md:opacity-100"  src="public/img/home.png" alt="" id="img-lap">
+    </div>
+</section>
+<section class="md:h-80vh bg-[url('/public/img/about.png')] md:flex place-items-center justify-center gap-[2rem] bg-cover" id="about">
+    <div class="md:w-[50%] md:h-[100vh] h-[50vh] w-[100%] bg-[url('/public/img/men.png')] bg-cover" id="men-image"></div>
+       <div class="md:w-[40%] w-[100%] md:py-[1rem] md:px-[1rem] h-auto p-[10px] md:h-[80%] content-center" id="about-anime">
+        <h1 class=" md:text-[60px] text-[40px] font-bold">ABOUT ME</h1>
+        <p class="  md:text-[22px] text-[20px] text-justify">We are a passionate web development team focused on building reliable, high-performing websites that help businesses grow online. With a strong attention to detail and modern development practices, we deliver solutions that are both visually appealing and technically sound.</p>
+        <h1 class=" md:text-[60px] text-[40px] font-bold text-[rgb(33,217,154)]">Why Choose Us?</h1>
+        <p class="  md:text-[22px] text-[20px]">✔ Custom web solutions <br> ✔ Responsive & mobile-friendly design <br> ✔ Fast performance & clean code <br> ✔ Ongoing support & maintenance</p>
+    </div>  
+</section>
+<section class="h-auto md:h-auto" id="service">
+  <h1 class="text-center capitalize md:text-[60px] text-[40px] font-bold py-[20px] font-bold text-[rgb(33,217,154)]" id="service-txt">our services</h1>
+ <div class="flex place-items-center md:h-[100%] flex flex-col md:flex-row">
+   <div class="text-center md:w-[50%] w-[100%] text-[22px] md:text-[40px] order-2 md:order-1 py-[20px] list-none" id="li-txt">
+       <li class="transition-transform duration-300 cursor-pointer hover:scale-125 hover:text-green-300">✔ Web Development</li>
+       <li class="transition-transform duration-300 cursor-pointer hover:scale-125 hover:text-green-300">✔ Web Design</li>
+       <li class="transition-transform duration-300 cursor-pointer hover:scale-125 hover:text-green-300">✔ Landing Pages</li>
+       <li class="transition-transform duration-300 cursor-pointer hover:scale-125 hover:text-green-300">✔ Single Page Websites</li>
+       <li class="transition-transform duration-300 cursor-pointer hover:scale-125 hover:text-green-300">✔ Multipage Website</li>
+       <li class="transition-transform duration-300 cursor-pointer hover:scale-125 hover:text-green-300">✔ Responsive Design</li>
+       <li class="transition-transform duration-300 cursor-pointer hover:scale-125 hover:text-green-300">✔ Animated Websites</li>
+       <li class="transition-transform duration-300 cursor-pointer hover:scale-125 hover:text-green-300">✔ UI/UX Design</li>
+       <li class="transition-transform duration-300 cursor-pointer hover:scale-125 hover:text-green-300">✔ Website Redesign</li><br>
+  </div>
+  <div class="md:w-[60%] md:h-[80vh] h-[40vh] w-[100%] order-1 md:order-2 bg-[url('/public/img/cod.png')] bg-cover"></div>
+  </div>
+</section>
+ <footer class="h-auto  text-center p-[20px]" id="footer">
+   <li class="md:text-[80px] text-[25px] list-none" id="footer-head">Lets's build Develope the <br><span class="text-[rgb(33,217,154)]">future of your brand.</span> </li>
+   <span class="md:text-[30px] text-[20px]" id="custome">Custom web solutions,optimized for speed and conversion</span>
+
+  <div class="flex justify-center gap-[2rem] mx-[0px] my-[20px]" id="social">
+    <!-- Facebook -->
+    <a href="https://www.facebook.com/share/16Qp9nxQzM/" role="button">
+   
+  <span class="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-[#1877f2]">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+  <!-- !Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+     <path
+        d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
+    </svg>
+    
+   </span>
+</a> 
+
+<a href="https://www.instagram.com/web_making_studio?igsh=MXFncWc5am05MWVwcw==" role="button">
+  <!-- Instagram-->
+  <span class="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-[#c13584]">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"> 
+      <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+      <path
+        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+    </svg>
+  </span>
+</a>
+</div>
+<div class="md:text-[22px] text-[20px]">
+  <h1 id="conatct">CONTACT-US</h1>
+  <a href="" id="email"><i class="ri-mail-add-fill"></i><span>webmakingstudio05@gmail.com</span></a>
+</div> 
+  
+  
+</footer> 
+
+<script>
+     const menu =document.getElementById("menu");
+     const hamburger=document.getElementById("hamburger");
+     const navlink=document.querySelectorAll('.nav-link')
+     hamburger.addEventListener('click',()=>{
+      menu.classList.toggle("-translate-x-full");
+    })
+    navlink.forEach(link=>{
+      link.addEventListener('click',()=>{
+        menu.classList.add("-translate-x-full");
+
+      })
+    })
+  
+</script>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+<script src="gsap.js"></script>
+</body>
+</html>
