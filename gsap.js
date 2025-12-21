@@ -3,14 +3,14 @@ const timeline = gsap.timeline()
 timeline.from("#logo",{
     y:-100,
     opacity:0,
-    duration:1,
+    duration:0.5,
 
 
  })
  timeline.fromTo(
   "#menu li",
   { y: -100, opacity: 0 }, // start
-  { y: 0, opacity: 1, duration: 1, stagger: 1 } // end
+  { y: 0, opacity: 0.5, duration: 0.5, stagger: 1 } // end
 )
 timeline.from("#heading span",{
     y:-100,
@@ -21,17 +21,17 @@ timeline.from("#heading span",{
 timeline.from("#img-lap",{
     y:-100,
     opacity:0,
-    duration:1,
+    duration:0.5,
 })
 timeline.from("#head-text p",{
     y:-100,
     opacity:0,
-    duration:1,
+    duration:0.5,
 })
 timeline.from("#men-image",{
     x:-150,
     opacity:0,
-    duration:2,
+    duration:0.2,
 })
 timeline.from("#about-anime h1", {
     x: 100,       // start 100px to the right
